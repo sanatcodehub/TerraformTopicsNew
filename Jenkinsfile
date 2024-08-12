@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/sanatcodehub/TerraformTopics.git'
+                git branch: 'main', url: 'https://github.com/sanatcodehub/TerraformTopicsNew.git'
             }
         }
 
